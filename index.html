@@ -1,1 +1,68 @@
+<!DOCTYPE html>
 <html>
+  <head>
+    <title>Parcel Sandbox</title>
+    <meta charset="UTF-8" />
+    <link href="src/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  </head>
+
+  <body>
+    <div class="row">
+    <div class="col-6">
+      <p>
+        <span>🌤 Tokyo </span> <span id=temp>32</span>ºC
+      </div>
+        <div class="col-6">
+           </p>
+    <form id=search-form>  
+      <input class="form-control" type="text" placeholder="New city" />
+      <input type="submit" value="Search" /> 
+    </form>
+   <h5></h5>
+    </div>
+  </div>
+    <hr color="#799351" size="5" width="1000" />
+
+    <div class="container">
+      <div class="row">
+        <div class="col-5">
+          ⛅ Tomorrow
+        </div>
+        <div class="col-2"></div>
+        <div class="col-5">
+          ⛈ Monday
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-5">
+          🌤 Tuesday
+        </div>
+        <div class="col-2"></div>
+        <div class="col-5">
+          🌩 Wednesday
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-5">
+          ⛅ Thursday
+        </div>
+        <div class="col-3"></div>
+        <div class="col">
+          <button type="button" class="btn btn-info">Other city</button>
+        </div>
+      </div>
+    </div>
+
+    <script src="src/index.js"></script>
+  </body>
+</html>
+

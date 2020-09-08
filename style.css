@@ -1,1 +1,34 @@
+p {
+  color: #ffa36c;
+  font-size: 40px;
+}
+.container {
+  border: solid;
+  padding: 20px;
+  border-color: #ebdc87;
+}
+
+.row {
+  margin: 10px;
+}
+
+.col-5 {
+  padding: 20px;
+  border: solid;
+  border-color: #d54062;
+}
+.col-1 {
+  align-content: center;
+}
+hr {
+  background: #799351;
+  width: 750px;
+  height: 3px;
+}
+.btn.btn-info {
+  padding: 8px;
+  background-color: #ffa36c;
+  border-color: #ebdc87;
+  color: black;
+}
 
